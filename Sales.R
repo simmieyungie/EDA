@@ -1,14 +1,10 @@
 #https://www.kaggle.com/jeetranjeet619/predict-future-sales-r
-#https://www.kaggle.com/bhaveshthaker/data-preparation-exploratory-analysis-and-modeling
 #Load in packages
 library(tidyverse)
 library(lubridate)
 library(reshape2)
 library(scales)
-library(fpp2)
-#install.packages("gbm")
-library(tictoc)
-library(gbm)
+
 #Load in dataset, save in new variable, examine structure
 
 #sales train data
